@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && copy .env dist\\",
+    "deploy": "tsc",
     "start": "node dist/app.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
