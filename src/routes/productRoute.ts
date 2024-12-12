@@ -18,7 +18,7 @@ const router = Router();
 
 /**
  * @swagger
- * /api/productos:
+ * /productos:
  *   get:
  *     summary: Obtiene todos los productos
  *     tags: [Productos]
@@ -30,7 +30,7 @@ router.get("/", obtenerProductos);
 
 /**
  * @swagger
- * /api/productos/{id}:
+ * /productos/{id}:
  *   get:
  *     summary: Obtiene un producto por ID
  *     tags: [Productos]
@@ -51,7 +51,7 @@ router.get("/:id", obtenerProductoPorId);
 
 /**
  * @swagger
- * /api/productos:
+ * /productos:
  *   post:
  *     summary: Crea un nuevo producto
  *     tags: [Productos]
@@ -82,7 +82,7 @@ router.post("/", crearProducto);
 
 /**
  * @swagger
- * /api/productos/{id}:
+ * /productos/{id}:
  *   put:
  *     summary: Actualiza un producto existente
  *     tags: [Productos]
@@ -109,7 +109,7 @@ router.put("/:id", actualizarProducto);
 
 /**
  * @swagger
- * /api/productos/{id}:
+ * /productos/{id}:
  *   delete:
  *     summary: Elimina un producto por ID
  *     tags: [Productos]
