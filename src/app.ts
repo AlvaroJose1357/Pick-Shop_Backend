@@ -16,6 +16,8 @@ connectBD();
 
 app.use(cors());
 
+app.use(express.json());
+
 app.use("/api/cart", cartRoute);
 app.use("/api/categories", categoryProductRoute);
 app.use("/api/productos", productRoute);
