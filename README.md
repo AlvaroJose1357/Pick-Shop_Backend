@@ -64,10 +64,6 @@
 
 ## 🌐 Endpoints principales
 
----
-
----
-
 ### **Productos**
 - `GET /productos`: Lista todos los productos.
 - `GET /productos/:id`: Muestra detalles de un producto específico.
@@ -94,33 +90,10 @@
 
 ---
 
----
 ## 📜 Instalación
----
 
----
 1. **Clona este repositorio**:
    ```bash
    git clone https://github.com/AlvaroJose1357/Pick-Shop_Backend.git
    cd Pick-Shop_Backend
-
-2. **Instala las dependecias**:
-    ```bash
-    npm install
-
-3. **Configura las variables de entorno**:
-- Crea un archivo .env en la raíz del proyecto.
-- Define las variables necesarias, como la URL de MongoDB y el puerto.
-
-4. **Compila el proyecto**:
-    ```bash
-    npm run build
-
-5. **Inicia el servidor**:
-    ```bash
-    npm start
-
-6. **Accede a la documentación de swagger**:
--Visita http://localhost:3000/api-docs para ver la documentación.
-
 ---
