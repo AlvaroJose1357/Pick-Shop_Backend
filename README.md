@@ -64,6 +64,10 @@
 
 ## 🌐 Endpoints principales
 
+---
+
+---
+
 ### **Productos**
 - `GET /productos`: Lista todos los productos.
 - `GET /productos/:id`: Muestra detalles de un producto específico.
@@ -90,8 +94,11 @@
 
 ---
 
+---
 ## 📜 Instalación
+---
 
+---
 1. **Clona este repositorio**:
    ```bash
    git clone https://github.com/AlvaroJose1357/Pick-Shop_Backend.git
